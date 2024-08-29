@@ -1,0 +1,122 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+    background-color: #ffffff;
+  }
+  
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+  
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #0b1c3c;
+}
+  
+
+.text-container {
+    text-align: center;
+    color: #0b1c3c; 
+}
+  
+
+.text-container h2 {
+    font-size: 1.2rem;
+    margin: 0;
+    color: #666666;
+}
+  
+.text-container h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 10px 0;
+    font-family: 'Roboto', sans-serif;
+}
+  
+
+.text-container h3 {
+    font-size: 1.2rem;
+    color: #666666; 
+    font-weight: normal;
+    margin-top: 0;
+}
+  
+
+.background-pattern {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background-image: url('../assets/pattern.png'); */
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-size: 30% 30%;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.navbar {
+    background-color: #0b1c3c;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+  
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    max-width: 1500px;
+}
+  
+.navbar-logo {
+    color: #fff;
+    justify-self: start;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+}
+  
+.nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    margin-right: -22px;
+}
+  
+.nav-item {
+    height: 80px;
+}
+  
+.nav-links {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+    cursor: pointer;
+}
+  
+.nav-links:hover {
+    border-bottom: 3px solid #01bf71;
+}
